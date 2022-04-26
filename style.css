@@ -1,12 +1,22 @@
 body {
   max-width: 500px;
   margin: auto;
-  background: white;
+  background: url(./images/Background.jpg);
   padding: 10px;
 }
 
+.fa-book-open {
+  color: blue;
+}
+
 h1 {
-  font-size: 2vw;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
 }
 
 #MyBookLibrary {
@@ -18,28 +28,53 @@ h1 {
 }
 
 hr {
-  border: 1px solid grey;
+  border: 1px solid rgb(87, 84, 84);
   width: 100%;
 }
 
-.libraryForm {
+#libraryForm {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: auto;
 }
 
-#library {
-  font-size: 1vw;
+#libraryForm #title {
+  width: 100%;
 }
 
-form {
-  width: 60%;
+#libraryForm #authors {
+  width: 100%;
 }
 
 input {
   width: 50%;
   padding: 5px;
   border: 1px solid grey;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(136, 133, 133);
+}
+
+td,
+tr {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 5px;
+}
+
+td:nth-child(even) {
+  text-align: right;
+  padding: 5px;
+  color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: #a09d9d;
 }
 
 #addBtn,
@@ -53,6 +88,7 @@ input {
 
 #addBtn {
   color: white;
-  padding: 2% 7%;
-  background-color: greenyellow;
+  padding: 1% 2%;
+  background-color: rgb(47, 95, 255);
+  margin-left: 15rem;
 }

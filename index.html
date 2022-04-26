@@ -5,91 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/aba42383d2.js" crossorigin="anonymous"></script>
-     <title>Library</title>
-</head>
-<body>
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/aba42383d2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css"> -->
-    <title>Awesome Books App</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Library</title>
 </head>
 <body>
     <section id="MyBookLibrary">
-         <h1>
-            <i class="fas fa-book-open text-primary"></i>
-            Awesome Books</h1>
-        <div id="library"></div>
-            <p>
-            <b>First Book</b> <br>Eat That Frog
-            </p>
-            <input type="submit" value="Remove">
-            <hr>
-        <div>
-            <p>
-            <b>Second Book</b> <br>This is Our Chance
-            </p>
-            <input type="submit" value="Remove">
+        <h1>
+            <i class="fas fa-book-open"></i>
+            All Awesome Books</h1>
+        <div class="table">
+            <table>
+                <tr>
+                  <td><b><i>"Title" by Author</i></b></td>
+                  <td><b>Remove</b></td>
+                </tr>
+                <tr>
+                  <td><b><i>"Title" by Author</i></b></td>
+                  <td><b>Remove</b></td>
+                </tr>
+                <tr>
+                  <td><b><i>"Title" by Author</i></b></td>
+                  <td><b>Remove</b></td>
+                </tr>
+                <tr>
+                  <td><b><i>"Title" by Author</i></b></td>
+                  <td><b>Remove</b></td>
+                </tr>
+                <tr>
+                  <td><b><i>"Title" by Author</i></b></td>
+                  <td><b>Remove</b></td>
+                </tr>
+                <tr>
+                  <td><b><i>"Title" by Author</i></b></td>
+                  <td><b>Remove</b></td>
+                </tr>
+              </table>
         </div>
-        <form id="libraryForm"><br>
-            <input id="title" type="text" placeholder="Title" required> <br><br> 
-            <input id="authors" type="text" placeholder="Author" required> <br><br>  
-            <button id="addBtn" type="submit">Add</button>
-        </form>
+        <div id="library"></div> 
+        <div>
+            <form id="libraryForm">
+                <h2>Add a New Book</h2>
+                <div>
+                <input id="title" type="text" placeholder="Title" required> <br><br> 
+                <input id="authors" type="text" placeholder="Author" required> <br><br>  
+                <button id="addBtn" type="submit">Add</button></div>
+            </form>
+        </div>
     </section>      
     <script src="app.js"></script>
 </body>
 </html>
-    <!-- <div class="container">
-        <h1>
-            <i class="fas fa-book-open text-primary"></i>
-            Awesome Books</h1>
-            <form id="book-form">
-                <div class="form-group">
-                    <p>
-                    <b>First Book</b> <br>Eat That Frog
-                      </p>
-                      <input type="submit" value="Remove">
-                    <hr>
-                </div>
-                <div class="form-group">
-                    <p>
-                    <b>Second Book</b> <br>This is Our Chance
-                      </p>
-                      <input type="submit" value="Remove">
-                    <hr>
-                    <input
-                    placeholder="Title"
-                    required
-                    class="form-control">
-                    <br>
-                    <br>
-                    <input
-                    placeholder="Author"
-                    required
-                    class="form-control">
-                    <br>
-                </div>
-                <br>
-                <input type="submit" value="Add">
-            </form> -->
-            <!-- <br>
-            <table>
-                <thead>
-                    <tr>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody id="book-list"></tbody>
-            </table> -->
-    <!-- </div> 
-    <script src="app.js"></script>
-</body>
-</html> -->
-
