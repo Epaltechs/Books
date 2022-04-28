@@ -6,17 +6,19 @@ body {
 }
 
 .fa-book-open {
-  color: blue;
+  color: rgb(255, 0, 200);
 }
 
 h1 {
   font-size: 30px;
   text-align: center;
+  color: blueviolet;
 }
 
 h2 {
   font-size: 20px;
   text-align: center;
+  color: blue;
 }
 
 #MyBookLibrary {
@@ -32,11 +34,26 @@ hr {
   width: 100%;
 }
 
+.divide {
+  border: 1px solid #000;
+  width: 25%;
+  align-items: center;
+}
+
+.library {
+  width: 100%;
+  align-self: center;
+  border: 2px solid #000;
+  border-spacing: 0;
+  margin: 2rem;
+}
+
 #libraryForm {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: auto;
+  margin: 2rem;
 }
 
 #libraryForm #title {
@@ -47,13 +64,66 @@ hr {
   width: 100%;
 }
 
+form {
+  width: 100%;
+}
+
 input {
   width: 50%;
   padding: 5px;
   border: 1px solid grey;
 }
 
-.table {
+.table-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+.table-item > p {
+  padding: 0;
+  line-height: 0%;
+  margin-left: 3%;
+}
+
+input {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid grey;
+  align-items: center;
+  margin: auto;
+}
+
+#addBtn,
+.remove {
+  color: white;
+  border: 1px solid #000;
+  padding: 1%;
+  border-radius: 7%;
+  background-color: rgb(141, 136, 136);
+}
+
+#addBtn {
+  color: white;
+  padding: 1% 2%;
+  background-color: blue;
+  margin-left: 20rem;
+  border: 1px solid grey;
+}
+
+.remove {
+  margin-right: 3%;
+  border: 1px solid rgb(54, 54, 54);
+  padding: 0.6% 2%;
+  background-color: orange;
+}
+
+/* .table {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -91,4 +161,4 @@ tr:nth-child(odd) {
   padding: 1% 2%;
   background-color: rgb(47, 95, 255);
   margin-left: 15rem;
-}
+} */
