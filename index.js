@@ -1,6 +1,6 @@
 /* eslint-disable*/
 import Book from './modules/library.js';
-import  * as app  from './modules/app.js'
+import { timer } from './modules/luxon.js'
 import * as list from './modules/list.js'
 import * as add from './modules/add.js'
 import * as contacts from './modules/contacts.js'
@@ -80,4 +80,4 @@ removeAction.forEach((btn, index) => {
 mainList.addEventListener('click', list.mylists)
 mainAdd.addEventListener('click', add.addnew)
 mainContact.addEventListener('click', contacts.contact)
-mainDate.addEventListener('click', date.DateTime)
+mainDate.addEventListener('click', luxon.DateTime)
