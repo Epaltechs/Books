@@ -1,0 +1,170 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 0;
+  margin: 1%;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#MyBookLibrary {
+  width: 800px;
+}
+
+.title {
+  text-align: center;
+}
+
+hr {
+  border: 1px solid rgb(87, 84, 84);
+  width: 100%;
+}
+
+.divide {
+  border: 1px solid #000;
+  width: 25%;
+  align-items: center;
+}
+
+.library {
+  width: 90%;
+  border: 2px solid #000;
+  border-spacing: 0;
+  margin: 2rem;
+}
+
+#libraryForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 2rem;
+}
+
+#libraryForm #title {
+  width: 60%;
+}
+
+#libraryForm #authors {
+  width: 60%;
+}
+
+form {
+  width: 100%;
+}
+
+.table-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+.table-item > p {
+  padding: 0;
+  line-height: 0%;
+  margin-left: 3%;
+}
+
+input {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid grey;
+  align-items: center;
+  margin: auto;
+}
+
+#addBtn,
+.remove {
+  color: white;
+  border: 1px solid #000;
+  padding: 1%;
+  border-radius: 7%;
+  background-color: rgb(141, 136, 136);
+}
+
+#addBtn {
+  color: white;
+  padding: 1% 2%;
+  font-size: 14px;
+  margin-left: 25rem;
+  border: 1px solid grey;
+}
+
+.remove {
+  margin-right: 3%;
+  border: 1px solid rgb(54, 54, 54);
+  padding: 0.6% 2%;
+  background-color: rgb(141, 136, 136);
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  text-align: left;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  margin-left: 2.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  border: 2px solid #000;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+footer {
+  border: 2px solid #000;
+  padding: 5px;
+  margin-top: 5%;
+  width: 700px;
+  margin-left: 2.2rem;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
