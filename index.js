@@ -1,6 +1,5 @@
 /* eslint-disable*/
 import Book from './modules/library.js';
-import * as DateTime from './modules/date.js'
 import  * as app  from './modules/app.js'
 import * as list from './modules/list.js'
 import * as add from './modules/add.js'
