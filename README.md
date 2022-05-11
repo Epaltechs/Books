@@ -1,6 +1,5 @@
 ## Awesome books
-Microverse project, second project of Week 1 Module 2.
-Working on a simple form, manipulating object data, object proporties and JavaScript classes using diferent methods and implementing it into front-end.
+This is a second Microverse project in the first week of Module 2. It is work on a simple form, manipulating object data, object properties and JavaScript classes using different methods and implementing it into front-end.
 
 ![screenshot](Library.png)
 
