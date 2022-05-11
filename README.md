@@ -2,6 +2,8 @@
 Microverse project , Second project of Week 1 Module 2,
 Working on a simple form, manipulating object data, object proporties and JavaScript classes using diferent methods and implementing it into front-end.
 
+[screenshot](Library.png)
+
 ## Built With
 
 - HTML
@@ -24,7 +26,7 @@ https://Epaltechs.github.io/AwesomeBooks/
 git clone https://github.com/Epaltechs/Books.git
 
 
-### Video Presentation
+### Live Demo
 
 [Coming soon](#)
 
