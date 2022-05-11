@@ -17,9 +17,6 @@ Working on a simple form, manipulating object data, object proporties and JavaSc
 - Code editor: VSCode
 - node js & npm
 
-### Preview
-
-https://Epaltechs.github.io/AwesomeBooks/
 
 ### Setup
 
@@ -28,7 +25,7 @@ git clone https://github.com/Epaltechs/Books.git
 
 ### Live Demo
 
-[Coming soon](#)
+https://epaltechs.github.io/Books/
 
 ### Setup
 
