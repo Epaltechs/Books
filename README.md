@@ -1,31 +1,32 @@
 ## Awesome books
-Microverse project , First project of Week2 Block 2,
-Restructuring the project by manipulating object data and object proporties using ES6 modules.
+Microverse project , Second project of Week 1 Module 2,
+Working on a simple form, manipulating object data, object proporties and JavaScript classes using diferent methods and implementing it into front-end.
+
+![screenshot](Library.png)
 
 ## Built With
 
 - HTML
 - CSS
-- Java Script
+- JavaScript
 - Github actions
 
 ### Prerequisites
 
 - WebBrowser
-- Code editor:VSCode
+- Code editor: VSCode
 - node js & npm
 
 ### Preview
 
-https://Epaltechs.github.io/Awesome-Books/
+https://Epaltechs.github.io/AwesomeBooks/
 
 ### Setup
 
-git clone https://github.com/Epaltechs/Awesome-Books.git
+git clone https://github.com/Epaltechs/Books.git
 
-cd festival
 
-### Video Presentation
+### Live Demo
 
 [Coming soon](#)
 
@@ -37,20 +38,19 @@ cd festival
 
 -Open the project using a live server
 
-## Authors
+## 👤Author
+### Emmnanuel Paul
+- GitHub: [https:/https://github.com/Epaltechs/Books]
+- LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
+- Twitter: [http://twitter.com/@emmapaul247].
 
+
+## 🤝 Contributor
 👤 **Veljko Panic**
-
-- GitHub: [Epaltechs](https://github.com/Epaltechs)
-- Twitter: [@epaltechs247](https://twitter.com/emmapaul247)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/)
-
-
-## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Epaltechs/Books/issues).
 
 ## Show your support
 
